@@ -1,6 +1,6 @@
 # 🌟 My Portfolio
 
-Your personal developer portfolio powered by **React** and **Vite** — fast, modern, and easy to extend.
+Your personal developer portfolio poweblue by **React** and **Vite** — fast, modern, and easy to extend.
 
 ---
 

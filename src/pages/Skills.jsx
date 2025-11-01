@@ -12,7 +12,7 @@ import {
   FaReact,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiTailwindcss, SiVite } from "react-icons/si";
+import { SiTailwindcss, SiFigma } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { RiPagesLine } from "react-icons/ri";
 import { GrOptimize } from "react-icons/gr";
@@ -31,7 +31,7 @@ const Skills = () => {
     { icon: <FaReact className="text-cyan-400 text-8xl" />, name: "React" },
     { icon: <SiTailwindcss className="text-sky-400 text-8xl" />, name: "Tailwind CSS" },
     { icon: <FaGitAlt className="text-orange-600 text-8xl" />, name: "Git" },
-    { icon: <SiVite className="text-purple-500 text-8xl" />, name: "Vite" },
+    { icon: <SiFigma className="text-purple-500 text-8xl" />, name: "Figma" },
   ];
 
   const services = [
@@ -49,7 +49,7 @@ const Skills = () => {
     },
     {
       icon: <GrOptimize className="text-stone-800 text-6xl mb-4" />,
-      title: "Website Redesign & Optimization",
+      title: "Website blueesign & Optimization",
       description:
         "Revamping existing sites for better performance, visuals, and usability.",
     },
@@ -82,9 +82,9 @@ const Skills = () => {
         >
           I specialize in front-end web development, creating responsive and visually
           engaging websites using HTML5, CSS3, Tailwind CSS, JavaScript, and React.
-          With Vite for fast builds and Git for version control, I deliver everything
-          from static sites to single-page applications focused on performance,
-          accessibility, and great user experience.
+          With Git for version control, I deliver everything from static sites to 
+          single-page applications focused on performance, accessibility, and great 
+          user experience.
         </motion.p>
 
         <Carousel
@@ -119,7 +119,7 @@ const Skills = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-4 bg-rose-50">
+      <section className="py-16 px-4 bg-blue-50">
         <div className="max-w-5xl mx-auto text-center">
           <motion.h2
             initial="hidden"
@@ -156,7 +156,7 @@ const Skills = () => {
                 variants={fadeUp}
                 transition={{ delay: index * 0.2, duration: 0.6 }}
                 viewport={{ once: true }}
-                className="bg-rose-200 rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col items-center text-center"
+                className="bg-blue-200 rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col items-center text-center"
               >
                 {service.icon}
                 <h5

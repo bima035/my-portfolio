@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rchll-16.github.io/my-portfolio/",
+  "homepage": "https://bima035.github.io/my-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "pblueeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

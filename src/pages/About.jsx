@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from '../assets/pfp.jpg';
+import myImg from '../assets/Bima_about.jpg';
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
       >
         <img
           src={myImg}
-          alt="Rachelle Pantinople"
+          alt="Bima Hanan Maulidyarta"
           className="w-94 h-94 object-cover border-7 border-stone-900 rounded-full shadow-lg"
         />
       </motion.div>
@@ -39,22 +39,31 @@ const About = () => {
           className="text-zinc-600 leading-relaxed mb-6"
           style={{ fontFamily: 'satoshi-medium' }}
         >
-          Hi! I'm <span className="font-semibold text-stone-800">Rachelle Pantinople</span>, 
-          an aspiring frontend developer passionate about crafting clean, 
-          user-friendly, and responsive web applications. I love transforming 
-          ideas into functional designs using HTML, CSS, JavaScript, React, 
-          and Tailwind CSS. My goal is to create experiences that are not only 
-          visually appealing but also intuitive to use.
+          Hi! I'm <span className="font-semibold text-stone-800">Bima Hanan Maulidyarta</span>, 
+          adalah mahasiswa Informatika di Binus Malang dengan fokus pada 
+          pengembangan web yang user-friendly dan responsif. Saya senang mengubah 
+          ide menjadi desain yang fungsional menggunakan HTML, CSS, JavaScript, React, 
+          dan Tailwind CSS. Tujuan saya adalah membuat pengalaman yang tidak hanya 
+          menarik secara visual tetapi juga intuitif untuk digunakan. 
         </p>
         <p
           className="text-zinc-600 leading-relaxed mb-6"
           style={{ fontFamily: 'satoshi-medium' }}
         >
-          I’m continuously learning and exploring new tools and frameworks 
-          to improve my skills. Beyond coding, I enjoy listening to music 
-          and gaming — activities that inspire creativity and problem-solving.
+          Selama studi, saya telah mengerjakan berbagai proyek akademik dan mandiri, mulai dari halaman web
+          interaktif hingga pengembangan fitur dasar aplikasi web. Saya fokus pada pembuatan antarmuka pengguna 
+          yang nyaman, struktur kode yang rapi, serta pengalaman pengguna yang baik. Saat ini, saya terus
+          mempelajari konsep backend, API, database, dan alur kerja aplikasi untuk memperkuat kemampuan full-stack saya.
         </p>
-
+        <p
+          className="text-zinc-600 leading-relaxed mb-6"
+          style={{ fontFamily: 'satoshi-medium' }}
+         >
+          </p>
+          Saya aktif mengembangkan kemampuan melalui eksplorasi teknologi modern, 
+          penggunaan AI untuk mendukung produktivitas, dan latihan mandiri. Di luar dunia teknologi, 
+          saya menikmati musik dan gaming sebagai cara untuk menjaga kreativitas dan kemampuan problem solving.
+         
         {/* Highlights Section */}
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8"
@@ -67,13 +76,13 @@ const About = () => {
           viewport={{ once: true }}
         >
           {[
-            { title: "Frontend Dev", desc: "Skilled in React, Tailwind CSS, and modern UI principles." },
-            { title: "Responsive Design", desc: "Creating layouts that work on all devices." },
-            { title: "Creative Coding", desc: "Blending creativity with technical skills for unique solutions." }
+            { title: "Frontend Dev", desc: "Terampil membangun tampilan website menggunakan HTML, CSS, JavaScript, React, dan Tailwind CSS." },
+            { title: "Responsive Design", desc: "Mampu membuat layout website yang responsif dan kompatibel di berbagai ukuran layar." },
+            { title: "Creative Coding", desc: "Menggabungkan kreativitas dengan kemampuan teknis untuk mengembangkan tampilan web interaktif dan menarik." }
           ].map((item, i) => (
             <motion.div
               key={i}
-              className="bg-orange-100 p-4 rounded-lg shadow"
+              className="bg-orange-50 border-2 border-stone-900 p-4 rounded-lg shadow"
               variants={{
                 hidden: { opacity: 0, y: 30 },
                 visible: { opacity: 1, y: 0 }

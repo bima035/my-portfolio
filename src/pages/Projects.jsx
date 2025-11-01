@@ -62,17 +62,17 @@ const Projects = () => {
     {
       title: "Science Lesson Website (Commision)",
       description:
-        "A clean, educational website designed to present various science topics using HTML and CSS. Perfect for sharing lesson modules such as the water cycle, biodiversity, pollution, and more in a readable, structured format.",
+        "A clean, educational website designed to present various science topics using HTML and CSS. Perfect for sharing lesson modules such as the water cycle, biodiversity, pollution, and more in a readable, structublue format.",
       image: scienceImg,
       link: "https://rchll-16.github.io/science-lesson/main.html",
       tech: ["HTML", "CSS"],
     },
     {
-      title: "Bini Redesign",
+      title: "Bini blueesign",
       description:
-        "A clean, modern redesign project for BINI, focusing on visually appealing layout, responsive design, and smooth user experience. Built entirely with HTML, CSS, and JavaScript — no frameworks, just handcrafted code.",
+        "A clean, modern blueesign project for BINI, focusing on visually appealing layout, responsive design, and smooth user experience. Built entirely with HTML, CSS, and JavaScript — no frameworks, just handcrafted code.",
       image: biniImg,
-      link: "https://rchll-16.github.io/bini-redesign/main.html",
+      link: "https://rchll-16.github.io/bini-blueesign/main.html",
       tech: ["HTML", "CSS", "JavaScript"],
     },
   ];
@@ -134,7 +134,7 @@ const Projects = () => {
                   {project.tech.map((t, i) => (
                     <span
                       key={i}
-                      className="bg-rose-200 text-rose-800 px-2 py-1 rounded-full text-xs"
+                      className="bg-blue-200 text-blue-800 px-2 py-1 rounded-full text-xs"
                     >
                       {t}
                     </span>
@@ -144,7 +144,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-rose-300 border-1 border-stone-800 text-stone-800 px-4 py-2 rounded-sm text-sm font-semibold hover:bg-rose-400 transition-colors"
+                  className="inline-block bg-blue-300 border-1 border-stone-800 text-stone-800 px-4 py-2 rounded-sm text-sm font-semibold hover:bg-blue-400 transition-colors"
                   style={{ fontFamily: "satoshi-medium" }}
                 >
                   View Project

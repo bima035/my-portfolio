@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import profileImg from '../assets/unnamed.jpg'
+import profileImg from '../assets/bima.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { FaLaptopCode } from 'react-icons/fa'
 import { MdStyle } from 'react-icons/md'
@@ -21,7 +21,7 @@ const LandingPage = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl text-stone-800 mb-4" style={{fontFamily: 'satoshi-black'}}>
-            Hi, I’m Rachelle Pantinople
+            Hi, I'm Bima Hanan Maulidyarta
           </h1>
 
           <p className="text-xl sm:text-2xl md:text-3xl text-stone-800 mb-6" style={{fontFamily: 'satoshi-medium'}}>
@@ -29,7 +29,7 @@ const LandingPage = () => {
             <span className="ml-2 block sm:inline">
               <TypeAnimation
                 sequence={[
-                  'Frontend Developer',
+                  'Web Developer',
                   2000,
                   '',
                   1000,
@@ -68,7 +68,7 @@ const LandingPage = () => {
         >
           <img
             src={profileImg}
-            alt="Rachelle Pantinople"
+            alt="Bima Hanan Maulidyarta"
             className="w-80 h-auto object-cover drop-shadow-[15px_15px_0px_black] rounded-lg md:ml-8"
           />
         </motion.div>
@@ -86,16 +86,16 @@ const LandingPage = () => {
         >
           <h2 className="text-3xl sm:text-4xl text-stone-800 mb-4" style={{fontFamily: 'satoshi-bold'}}>About Me</h2>
           <p className="text-zinc-600 max-w-2xl mx-auto text-sm sm:text-base" style={{fontFamily: 'satoshi-medium'}}>
-            I’m an aspiring frontend developer passionate about creating clean, responsive, 
-            and visually appealing websites. I enjoy turning ideas into functional, 
-            interactive experiences using HTML, CSS, JavaScript, React, and Tailwind CSS.
+            Saya seorang web developer yang antusias dalam membangun website yang rapi, responsif, dan
+            mudah digunakan. Saya senang mengubah ide menjadi pengalaman interaktif 
+            menggunakan HTML, CSS, JavaScript, React, dan Tailwind CSS.
           </p>
         </motion.div>
 
         {/* Highlights */}
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[ 
-            { icon: <FaLaptopCode size={70} />, title: 'Clean & Semantic Code', desc: 'Writing well-structured, semantic HTML and React components for maintainable codebases.' },
+            { icon: <FaLaptopCode size={70} />, title: 'Clean & Semantic Code', desc: 'Writing well-structublue, semantic HTML and React components for maintainable codebases.' },
             { icon: <MdStyle size={70} />, title: 'Modern UI Styling', desc: 'Crafting visually appealing interfaces using Tailwind CSS and responsive design principles.' },
             { icon: <TbComponents size={70} />, title: 'Interactive Components', desc: 'Building dynamic, user-friendly components with React and UI libraries.' }
           ].map((item, index) => (

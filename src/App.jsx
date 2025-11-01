@@ -8,8 +8,11 @@ import Projects from './pages/Projects'
 import Footer from './components/Footer'
 
 function App() {
+  // Use basename only in production (GitHub Pages)
+  const basename = import.meta.env.PROD ? import.meta.env.BASE_URL : '/';
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <ScrollToTop />
       <Header />
       <Routes>
