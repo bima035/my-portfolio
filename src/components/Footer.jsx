@@ -28,13 +28,13 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3" style={{fontFamily: 'satoshi-bold'}}>Connect</h3>
           <div className="flex space-x-4 text-2xl">
-            <a href="https://github.com/rchll-16" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+            <a href="https://github.com/bima035" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/pantinople-rachelle-a-165028246/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+            <a href="https://www.linkedin.com/in/bima-hanan-704b13314/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <FaLinkedin />
             </a>
-            <a href="mailto:pantinoplerachelle16@gmail.com" className="hover:text-blue-400 transition">
+            <a href="mailto:bimahanan073@gmail.com" className="hover:text-blue-400 transition">
               <FaEnvelope />
             </a>
           </div>

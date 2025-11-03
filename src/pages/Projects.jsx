@@ -1,23 +1,17 @@
 import React from "react";
-import flowerShopImg from "../assets/flowershop.png";
+import nusaEneriImg from "../assets/nusaenergi.png";
 import ecBookstoreImg from "../assets/ecbookstore.jpg";
-import clothingImg from "../assets/clothing.png";
-import school1Img from "../assets/school1.png";
-import school2Img from "../assets/school2.png";
-import intraImg from "../assets/intra.png";
-import scienceImg from "../assets/science.png";
-import biniImg from "../assets/bini.png";
 import { motion } from "framer-motion";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Flower Shop Website",
+      title: "NusaEnergi Website",
       description:
         "The Flower Shop is a static website designed to showcase a variety of flowers available for purchase. This website provides users with an easy-to-navigate interface to explore different flower types, view details, and make inquiries.",
-      image: flowerShopImg,
-      link: "https://rchll-16.github.io/Flower-Shop/",
-      tech: ["HTML", "CSS", "JavaScript"],
+      image: nusaEnergiImg,
+      link: "https://nusa-energi.vercel.app/",
+      tech: ["HTML", "CSS", "PHP"],
     },
     {
       title: "E-Commerce Web App",
@@ -26,54 +20,6 @@ const Projects = () => {
       image: ecBookstoreImg,
       link: "https://github.com/rchll-16/e-commerce",
       tech: ["JavaScript", "React", "NodeJS", "MongoDB"],
-    },
-    {
-      title: "Clothing Website (Commision)",
-      description:
-        "A clean, responsive, and user-friendly clothing site built with HTML and CSS. This static web project showcases a landing page, FAQ section, and styling using custom CSS.",
-      image: clothingImg,
-      link: "https://rchll-16.github.io/clothingwebsite/main.html",
-      tech: ["HTML", "CSS"],
-    },
-    {
-      title: "School Website 1 (Commision)",
-      description:
-        "A clean, informative, and fully responsive school website crafted with HTML and CSS. Featuring multiple pages—Home, About, Academic Programs, Offers, Contacts—this static site is perfect for informational or portfolio use.",
-      image: school1Img,
-      link: "https://rchll-16.github.io/school-aaa/",
-      tech: ["HTML", "CSS"],
-    },
-    {
-      title: "School Website 2 (Commision)",
-      description:
-        "A clean, responsive, and informative school website built using HTML and CSS. Ideal for institutional presentation, this static site includes pages for home, about, academic programs, events, and contact details.",
-      image: school2Img,
-      link: "https://rchll-16.github.io/school-uep/",
-      tech: ["HTML", "CSS"],
-    },
-    {
-      title: "Intramuros Cultural Website (Commision)",
-      description:
-        "A beautifully designed, static website showcasing the heritage sites of Intramuros using HTML, CSS, and high-quality images. Perfect for both educational presentation and visual storytelling of historical landmarks.",
-      image: intraImg,
-      link: "https://rchll-16.github.io/intramuros-website/",
-      tech: ["HTML", "CSS"],
-    },
-    {
-      title: "Science Lesson Website (Commision)",
-      description:
-        "A clean, educational website designed to present various science topics using HTML and CSS. Perfect for sharing lesson modules such as the water cycle, biodiversity, pollution, and more in a readable, structublue format.",
-      image: scienceImg,
-      link: "https://rchll-16.github.io/science-lesson/main.html",
-      tech: ["HTML", "CSS"],
-    },
-    {
-      title: "Bini blueesign",
-      description:
-        "A clean, modern blueesign project for BINI, focusing on visually appealing layout, responsive design, and smooth user experience. Built entirely with HTML, CSS, and JavaScript — no frameworks, just handcrafted code.",
-      image: biniImg,
-      link: "https://rchll-16.github.io/bini-blueesign/main.html",
-      tech: ["HTML", "CSS", "JavaScript"],
     },
   ];
 

@@ -137,19 +137,19 @@ const Header = () => {
             {/* Email */}
             <div className="flex items-center gap-3">
               <MdEmail className="text-blue-500" size={20} />
-              <span className="text-zinc-700">pantinoplerachelle16@gmail.com</span>
+              <span className="text-zinc-700">bimahanan073@gmail.com</span>
             </div>
           
             {/* Phone */}
             <div className="flex items-center gap-3">
               <MdPhone className="text-blue-500" size={20} />
-              <span className="text-zinc-700">+63 951 490 8319</span>
+              <span className="text-zinc-700">+62 898 342 4304</span>
             </div>
           
             {/* Location */}
             <div className="flex items-center gap-3">
               <MdLocationOn className="text-blue-500" size={20} />
-              <span className="text-zinc-700">Rizal, Philippines</span>
+              <span className="text-zinc-700">Malang,Indonesia</span>
             </div>
           
             {/* Social Links */}
@@ -157,15 +157,7 @@ const Header = () => {
               <h4 className="text-stone-800 mb-3" style={{fontFamily: 'satoshi-bold'}}>Social Media</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://www.facebook.com/rachellep16"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-full bg-white shadow hover:bg-blue-100 transition-colors"
-                >
-                  <FaFacebookF className="text-blue-500" size={20} />
-                </a>
-                <a
-                  href="https://github.com/rchll-16"
+                  href="https://github.com/bima035"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white shadow hover:bg-blue-100 transition-colors"
@@ -173,7 +165,7 @@ const Header = () => {
                   <FaGithub className="text-blue-500" size={20} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/pantinople-rachelle-a-165028246/"
+                  href="https://www.linkedin.com/in/bima-hanan-704b13314/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white shadow hover:bg-blue-100 transition-colors"
@@ -181,20 +173,12 @@ const Header = () => {
                   <FaLinkedinIn className="text-blue-500" size={20} />
                 </a>
                 <a 
-                  href="https://www.instagram.com/qwrty_rchll/"
+                  href="https://www.instagram.com/bimzbim_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white shadow hover:bg-blue-100 transition-colors"
                 >
                   <FaInstagram className="text-blue-500" size={20} />
-                </a>
-                <a 
-                  href="https://www.tiktok.com/@qwerty_dev  "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-full bg-white shadow hover:bg-blue-100 transition-colors"
-                >
-                  <FaTiktok className="text-blue-500" size={20} />
                 </a>
               </div>
             </div>
